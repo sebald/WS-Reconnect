@@ -1,0 +1,29 @@
+{
+  "name": "rx-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack app.ts app.js",
+    "server:static": "nws",
+    "server:socket": "node server",
+    "serve": "npm-run-all --parallel server:*",
+    "start": "npm-run-all build serve",
+    "watch": "watch \"npm run build && echo ⏱  WAITING...\" . -d -u -w=15"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nws": "1.1.1",
+    "rxjs": "5.0.0-beta.11",
+    "ws": "1.1.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "3.1.0",
+    "ts-loader": "0.8.2",
+    "typescript": "2.0.2",
+    "watch": "0.19.2",
+    "webpack": "1.13.2"
+  }
+}
