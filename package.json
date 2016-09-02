@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "nws": "1.1.1",
-    "rxjs": "5.0.0-beta.11",
+    "@reactivex/rxjs": "https://github.com/sebald/rxjs/tarball/85f4f87cb6ca86f285123c99b6ffad826dcf64f7",
     "ws": "1.1.1"
   },
   "devDependencies": {

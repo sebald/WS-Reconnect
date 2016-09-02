@@ -24,4 +24,4 @@ setInterval(() => {
     } else {
         server = createServer();
     }
-}, 10000);
+}, 5000);
